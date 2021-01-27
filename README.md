@@ -13,7 +13,7 @@
 
 ### commands
 <br>
-```markdown
+```go
 TAYBOT | HELP
 PREFIX "<"
 // [@user] can be left out
