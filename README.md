@@ -4,6 +4,7 @@
 
 ## how to set it up
 <-> go to config.json and enter something into all the empty quotations marks
+<br>
 <-> "node index.js"
 
 ## commands
