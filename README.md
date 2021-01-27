@@ -3,8 +3,8 @@
 </p>
 
 ## how to set it up
-- go to config.json and enter something into all the empty quotations marks
-- "node index.js"
+<-> go to config.json and enter something into all the empty quotations marks
+<-> "node index.js"
 
 ## commands
 <br>
