@@ -1,4 +1,5 @@
 # taybot
+<img src="https://fakeimg.pl/800x200/?text=taybot%20:)&font=noto">
 ## how to set it up
 - go to config.json and enter something into all the empty quotations marks
 - "node index.js"
