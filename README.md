@@ -13,7 +13,48 @@
 
 ### commands
 <br>
-<p align="center">
-  <img width="500" height="862" src="https://cdn.discordapp.com/attachments/803072976185851936/804079407676391464/carbon2.png" />
-</p>
-
+```markdown
+TAYBOT | HELP
+PREFIX "<"
+// [@user] can be left out
+// [font] can be left out
+// [reason] can be left out
+// dont include the []
+- <help
+[ 0 ]
+- <iq [@user]
+- <gay [@user]
+- <av [@user]
+- <unmute [@user]
+- <skintone [@user]
+- <userinfo [@user]
+- <8ball [question]
+- <ascii [font] [message]
+- <s [suggestion]
+[ 1 ]
+- <nuke
+- <snipe
+- <purge [number]
+- <kick [@user] [reason]
+- <ban [@user] [reason]
+[ 2 ]
+- <uid list
+- <uid add [name]
+- <uid remove
+[ 3 ]
+- <cat
+- <pony
+- <waifu
+- <horse
+- <person
+- <artwork
+[ 4 ]
+- <antirussian
+- <serverinfo
+- <botinfo
+- <invite
+- <donate
+- <giveaway [channel] [duration] [winners] [item]
+- <reroll [id of giveaway message]
+- <invitecode [software]
+```
