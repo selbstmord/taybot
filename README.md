@@ -1,4 +1,4 @@
-[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg =250x250)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 # taybot
 ## how to set it up
 - go to config.json and enter something into all the empty quotations marks
