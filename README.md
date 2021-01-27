@@ -11,8 +11,7 @@
 <br>
 <-> you should now see "Bot | ✅"
 
-### commands
-<br>
+### command list
 
 ```markdown
 TAYBOT | HELP
