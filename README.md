@@ -1,3 +1,4 @@
+![](https://forthebadge.com/images/badges/works-on-my-machine.svg)
 # taybot
 ## how to set it up
 - go to config.json and enter something into all the empty quotations marks
