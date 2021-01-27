@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://fakeimg.pl/1200x200/?text=taybot%20:)&font=noto">
+  <img src="https://fakeimg.pl/1300x200/?text=taybot%20:)&font=noto">
 </p>
 
 ## how to set it up
