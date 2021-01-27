@@ -7,7 +7,9 @@
 <br>
 <-> go to config.json and enter something into all the empty quotations marks
 <br>
-<-> "node index.js"
+<-> type "node index.js" to start the bot
+<br>
+<-> you should now see "Bot | ✅"
 
 ### commands
 <br>
