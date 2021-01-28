@@ -1,5 +1,5 @@
 {
-  "name": "bot",
+  "name": "taybot",
   "version": "1.0.0",
   "description": "my discord bot :)",
   "main": "index.js",
