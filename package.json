@@ -1,14 +1,14 @@
 {
   "name": "bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "my discord bot :)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"test succesful\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "tayhay",
   "license": "ISC",
   "dependencies": {
     "discord-anti-spam": "^2.4.1",
