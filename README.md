@@ -16,13 +16,10 @@
 ### command list
 
 ```markdown
-TAYBOT | HELP
-PREFIX "<"
-
 // [@user] can be left out
 // [font] can be left out
 // [reason] can be left out
-// dont include the []
+// dont include the [] (duh)
 
 - <help
 [ 0 ]
