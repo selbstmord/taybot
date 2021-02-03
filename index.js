@@ -56,29 +56,8 @@ client.on("message", async (message) => {
   }
 });
 
-var x = true;
-
-client.on("message", (message) => {
-  var thing = message.content.toLowerCase();
-  if (thing === "%antirussian") {
-    if (message.guild.member(message.author).hasPermission("MANAGE_MESSAGES") || message.author.id == "403915351923884032") {
-      x = !x;
-      if (x) {
-        message.channel.send("Antirussian has been toggled [ON].");
-      } else {
-        message.channel.send("Antirussian has been toggled [OFF].");
-      }
-    } else {
-      message.reply("you don't have permission to do that.").then((msg) => {
-        msg.delete({ timeout: 10000 });
-      });
-    }
-  }
-});
-
 client.on("message", (message) => {
   const words = ["Б", "б", "в", "Г", "г", "Д", "д", "Ё", "ё", "Ж", "ж", "З", "з", "И", "и", "Й", "й", "К", "к", "Л", "л", "П", "п", "У", "Ф", "ф", "Ц", "ц", "Ч", "ч", "Ш", "ш", "Щ", "щ", "Ъ", "ъ", "Ы", "ы", "Ь", "ь", "Э", "э", "Ю", "ю", "Я", "я", "suka", "cyka", "cuka", "blyat"];
-  if (x) {
     if (message.author.bot) return;
     if (words.some((word) => (thing = message.content.toLowerCase().includes(word)))) {
       message.delete();
@@ -86,7 +65,6 @@ client.on("message", (message) => {
         msg.delete({ timeout: 10000 });
       });
     }
-  }
 });
 
 const antiSpam = new AntiSpam({
