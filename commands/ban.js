@@ -14,7 +14,7 @@ module.exports.run = async (client, message, args) => {
   if (!reason) reason = "Banned by " + message.author.tag + ", no reason provided.";
   message.guild
     .member(message.mentions.users.first())
-    .ban({days: 7, reason: "Banned by " + message.author.tag + ", Reason:" + reason})
+    .ban({days: 7, reason: reason})
     .then(() => {
       message.channel.send(message.mentions.users.first().username + " got banned.");
     });
