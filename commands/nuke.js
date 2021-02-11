@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const { set } = require("quick.db");
 
 module.exports.help = {
   name: "nuke",
@@ -10,31 +11,16 @@ module.exports.run = async (client, message, args) => {
 
   const chanName = message.channel.name;
   const position = message.channel.position;
-  if (message.channel.parentID) {
-    const categoryId = message.channel.parentID;
-    const catego = message.guild.channels.cache.find((c) => c.id == categoryId && c.type == "category");
-    message.channel.delete().catch();
-
-    const chan = message.guild.channels
-      .create(chanName, {
-        type: "text",
-        parent: catego,
-      })
-      .then((channel) => channel.setPosition(position))
-      .then((channel) =>
-        channel.send(`Succesfully nuked ${chanName} \n https://i.gifer.com/6Ip.gif`).then((msg) => {
-          msg.delete(20000);
-        })
-      );
-    chan;
-  }
+  const categoryId = message.channel.parentID;
+  const catego = message.guild.channels.cache.find((c) => c.id == categoryId && c.type == "category");
   message.channel.delete().catch();
 
   const chan = message.guild.channels
     .create(chanName, {
       type: "text",
+      parent: catego,
     })
     .then((channel) => channel.setPosition(position))
-    .then((channel) => channel.send("Succesfully nuked `" + `${chanName}` + "`", { files: ["https://content.spiceworksstatic.com/service.community/p/post_images/0000252146/5936fe01/attached_image/Nuke.gif"] }).then((msg) => msg.delete({ timeout: 10000 })));
+    .then((channel) => channel.send(`Succesfully nuked ${chanName}`));
   chan;
 };
