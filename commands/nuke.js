@@ -21,6 +21,6 @@ module.exports.run = async (client, message, args) => {
       parent: catego,
     })
     .then((channel) => channel.setPosition(position))
-    .then((channel) => channel.send(`Succesfully nuked ${chanName}`));
+    .then((channel) => channel.send(`Succesfully nuked ${chanName} \n  https://i.gifer.com/6Ip.gif`).then((msg) => msg.delete({ timeout: 20000 })));
   chan;
 };
